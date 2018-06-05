@@ -1,20 +1,8 @@
-# Spreadsheet
+// Copyright (c) 2018 Beta Kuang
+//
+// This software is released under the MIT License.
+// https://opensource.org/licenses/MIT
 
-Spreadsheet is a Go package providing a simple interface for reading spreadsheet files, including XLSX and CSV.
-
-## Installation
-
-Please use [gopkg.in](https://gopkg.in) for stable releases.
-
-```bash
-go get -u gopkg.in/beta/spreadsheet.v1
-```
-
-## Getting started
-
-For full documentation please refer to [https://godoc.org/github.com/beta/spreadsheet](https://godoc.org/github.com/beta/spreadsheet).
-
-```go
 package main
 
 import (
@@ -58,8 +46,3 @@ func main() {
 		fmt.Printf("Value: %s\n", cell.String())
 	}
 }
-```
-
-## License
-
-MIT
